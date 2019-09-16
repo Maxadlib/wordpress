@@ -4,8 +4,9 @@
 - php serialized = a:1:{s:13:"administrator";b:1;}
 - aveut dire tableau, profondeur de 1, la donnée est en s :string, 13 caractères, "administrateur", b est un boléen, est 1 valide la donnée.
 - https://blog.tanist.co.uk/files/unserialize/ pour déserialiser les données
-- Pour créer nouvel utilisateur > ds bdd dans phpmyadmin, nouvel utilisateur, idrntifiant : 10 par exemple, login : nom de connexion, mdp > fontion  : crypté en md5. Les autres champs sont facultatifs.
+- Pour créer nouvel utilisateur > ds bdd dans phpmyadmin, nouvel utilisateur, identifiant : 10 par exemple, login : nom de connexion, mdp > fontion  : crypté en md5. Les autres champs sont facultatifs.
 - Pour définir un administrateur, aller dans la table user meta, parcourir pour voir jusqu'ou vont les umeta_id, si ça finit à 19, commencer à 20. Cliquer sur l'onglet insérer, umeta_id : 20 (si 19 le précédent), user_id : 10, meta_key : wp_capabilities, et enfin meta_value => a:1:{s:13:"administrator";b:1;} Puis cliquer sur éxécuter
+- 
 
 
 
